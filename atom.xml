@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The crabmanner blog</title><link href="http://crabmanner.github.io/" rel="alternate"></link><link href="http://crabmanner.github.io/atom.xml" rel="self"></link><id>http://crabmanner.github.io/</id><updated>2015-01-04T23:39:00+01:00</updated><entry><title>LaserBack - Payback card cloning</title><link href="http://crabmanner.github.io/laserback-payback-card-cloning.html" rel="alternate"></link><updated>2015-01-04T23:39:00+01:00</updated><author><name>crabmanner</name></author><id>tag:crabmanner.github.io,2015-01-04:laserback-payback-card-cloning.html</id><summary type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;We were looking for a way to share our payback card, unfortunately we didn't have a card printer like &lt;a href="http://www.zebra.com/us/en/products-services/printers/printer-type/card.html"&gt;this one&lt;/a&gt; because we didn't have a spare 900€ to buy one.&lt;/p&gt;
+&lt;p&gt;This is the writeup of how you too can create your own payback cards with nothing more than:
+&lt;ul class='disc'&gt;
+    &lt;li&gt;a Lasercutter &lt;/li&gt;
+    &lt;li&gt;some old paper-stickers &lt;/li&gt;
+    &lt;li&gt;a bunch of Payback cards &lt;/li&gt;
+    &lt;li&gt;some fine sandpaper&lt;/li&gt;
+    &lt;li&gt;spray paint&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;h2&gt;Step by Step&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Register a payback card. You can use the terminals at local supermarkets (e.g. REWE) to register the card without having to provide an email address. There is no backchecking of the provided name or email address. The card is immediatly ready to go.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generate the EAN-13 Barcode of the card you just registered. We used this page http://barcode.tec-it.com/barcode-generator.aspx . Load the Barcode.png file into Inkscape and generate a .svg from it. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Crop the top of the generated barcode to the right ratio and resize the barcode. &lt;img alt="cropped barcode" src="img/barcode_cropped.png" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Laser the .svg file into the paper sticker. We achieved better results using the "scan" mode of the laser. The finer your laser works, the better the result will be. Try not to set your laser on fire. &lt;img alt="stencil" src="img/stencil.jpg" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use the sandpaper to remove the Barcode from the &lt;strong&gt;unregistered&lt;/strong&gt; Payback cards. Try not to harm the rest of the print. With water and a sponge it is easy to remove the grey shadows left by the sandpaper. We recommend you use the finest sand paper you can find (we only had 240 paper unfortunately). Finer paper will prevent the varnish to run into the scratches. &lt;img alt="cleaned card" src="img/cleaned_card.jpg" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stick the stencil onto the card. Try to match the position of the original Barcode.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use spray paint to give the card its barcode. Wait a few seconds till the paint started to dry, than remove the sticker. &lt;img alt="payback test" src="img/payback_test2.jpg" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[BONUS] Transfer the magnetic-stripe data onto the other card. We have yet to see a shop which uses the magnet stripe but we did it nonetheless. We used a cheap MSR605 magnet-stripe writer without any issues.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;[Double Bonus] To protect the code you should finish the card with clear varnish. We had none ready so this is a to-do for us.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You are done! &lt;img alt="before and after" src="img/before_and_after.jpg" /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Trivia&lt;/h2&gt;
+&lt;p&gt;The first thing we tried is to create a stencil with a overhead projector foil and the laser cutter. After a few tries the stencil looked very promising: 
+&lt;img alt="first stencil" src="img/first_stencil.jpg" /&gt;
+Unfortunately due to the capilary effect we were not able to create a clean print.&lt;/p&gt;
+&lt;p&gt;We also tried to create a stencil from a cd-rom to have a harder stencil to work with, it turned out to not be the best idea ... &lt;img alt="cd stencil" src="img/cd_stencil.jpg" /&gt;&lt;/p&gt;</summary><category term="payback"></category><category term="cloning"></category></entry></feed>
